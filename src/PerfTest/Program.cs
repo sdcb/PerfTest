@@ -1,4 +1,5 @@
-﻿using PerfTest.StructClass;
+﻿using PerfTest.HashVsRBT;
+using PerfTest.StructClass;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,8 @@ namespace PerfTest
     {
         public static void Main(string[] args)
         {
-            StructClassTest.DoTest();
+            //StructClassTest.DoTest();
+            HashVsRBTTest.DoTest();
         }
     }
 }
