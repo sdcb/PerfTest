@@ -4,7 +4,7 @@
 #include <boost\date_time\posix_time\posix_time.hpp>
 #pragma comment(lib, "psapi.lib")
 
-float StructClass::Utils::GetProcessMemorySizeMb()
+float Utils::GetProcessMemorySizeMb()
 {
 	auto handle = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, GetCurrentProcessId());
 	PROCESS_MEMORY_COUNTERS pmc;
@@ -14,7 +14,7 @@ float StructClass::Utils::GetProcessMemorySizeMb()
 	return pmc.WorkingSetSize / 1024.0f / 1024;
 }
 
-long long StructClass::Utils::MeasureTime(std::function<void()> action)
+long long Utils::MeasureTime(std::function<void()> action)
 {
 	auto t1 = boost::posix_time::microsec_clock::local_time();
 	action();

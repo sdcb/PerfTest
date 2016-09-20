@@ -5,12 +5,20 @@
     <ClCompile Include="StructClass\Vector2S.cpp" />
     <ClCompile Include="StructClass\Vector2C.cpp" />
     <ClCompile Include="StructClass\StructClassTest.cpp" />
-    <ClCompile Include="StructClass\Utils.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+    <ClCompile Include="Utils\Guid.cpp" />
+    <ClCompile Include="HashVsRBT\HashTable.cpp" />
+    <ClCompile Include="HashVsRBT\RBT.cpp" />
+    <ClCompile Include="HashVsRBT\HashVsRBTTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StructClass\StructClassTest.h" />
     <ClInclude Include="StructClass\Vector2S.h" />
     <ClInclude Include="StructClass\Vector2C.h" />
-    <ClInclude Include="StructClass\Utils.h" />
+    <ClInclude Include="Utils\Utils.h" />
+    <ClInclude Include="Utils\Guid.h" />
+    <ClInclude Include="HashVsRBT\HashTable.h" />
+    <ClInclude Include="HashVsRBT\RBT.h" />
+    <ClInclude Include="HashVsRBT\HashVsRBTTest.h" />
   </ItemGroup>
 </Project>

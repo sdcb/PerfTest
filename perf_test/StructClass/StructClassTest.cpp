@@ -1,7 +1,7 @@
 #include "StructClassTest.h"
 #include "Vector2C.h"
 #include "Vector2S.h"
-#include "Utils.h"
+#include "..\Utils\Utils.h"
 
 #include <iostream>
 #include <algorithm>
